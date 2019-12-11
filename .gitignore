@@ -54,3 +54,4 @@ dkms.conf
 a*.S
 
 .vscode/
+*.stackdump
