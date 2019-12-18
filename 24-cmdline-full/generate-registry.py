@@ -26,5 +26,5 @@ print()
 
 print('static Command registry[] = {')
 for cmd, callback in cmds:
-    print('    {.cmd = "%s", .func = %s},' % (cmd, callback))
+    print('    {.cmd = %s, .func = %s},' % (cmd, callback))
 print('};')
